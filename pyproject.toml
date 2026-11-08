@@ -1,0 +1,15 @@
+[project]
+name = "spot-perpetual-analyisis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10.4"
+dependencies = [
+    "ipykernel>=7.1.0",
+    "lead-lag>=2.3",
+    "pandas>=2.3.3",
+    "scikit-learn>=1.7.2",
+    "statsmodels>=0.14.6",
+]
+[tool.uv.extra-build-dependencies]
+lead-lag = ["Cython"]
